@@ -1,0 +1,34 @@
+{
+  "name": "deepl-scraper",
+  "version": "1.0.11",
+  "description": "Scrape data from DeepL translator without applying for the paid authenticated API",
+  "keywords": [
+    "deepl",
+    "deepl.com",
+    "translator",
+    "scraper",
+    "api"
+  ],
+  "homepage": "https://git.kaki87.net/KaKi87/deepl-scraper",
+  "license": "WTFPL",
+  "author": {
+    "name": "KaKi87",
+    "email": "tiana.lemesle@live.fr",
+    "url": "kaki87.net"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.kaki87.net/KaKi87/deepl-scraper.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "puppeteer": "^1.15.0"
+  },
+  "devDependencies": {
+    "consola": "^2.15.0"
+  },
+  "scripts": {
+    "test": "env CONSOLA_LEVEL=4 node test.js"
+  }
+}
