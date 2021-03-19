@@ -4,7 +4,7 @@ let browser;
 
 const getBrowser = async () => {
 	if(browser) return browser;
-	browser = await require('puppeteer').launch();
+	browser = await require('puppeteer').launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
 	browser.on('disconnected', () => browser = null);
 	return browser;
 };
