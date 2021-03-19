@@ -1,5 +1,5 @@
 {
-  "name": "deepl-scraper",
+  "name": "deepl-scraper-fix",
   "version": "1.0.11",
   "description": "Scrape data from DeepL translator without applying for the paid authenticated API",
   "keywords": [
